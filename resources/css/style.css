@@ -101,7 +101,7 @@ h2:after
 {
     border-right: 1px solid #cf6d17;
 }
-.box:nth-child(4)
+.box:last-child
 {
     border-right: none;
 }
