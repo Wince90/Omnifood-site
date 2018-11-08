@@ -13,7 +13,8 @@ Orange color: #e67e22
     padding: 0;
     box-sizing: border-box
 }
-html 
+html,
+body
 {
     background-color: #fff;
     color: #555;
@@ -21,6 +22,7 @@ html
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden; /*hide scroll for small size devices*/
 }
 .clearfix {zoom: 1}
 .clearfix
@@ -65,6 +67,7 @@ h1
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    text-align: left;
 }
 h2
 {
